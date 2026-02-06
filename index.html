@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cancionero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎵 Mi Cancionero</h1>
+
+  <div id="controls">
+    <button onclick="transpose(-1)">−</button>
+    <span>Tono</span>
+    <button onclick="transpose(1)">+</button>
+  </div>
+
+  <pre id="song" contenteditable="true">
+[Am]Hoy te [F]quiero can[C]tar
+que mi [G]vida es para [Am]vos
+  </pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
